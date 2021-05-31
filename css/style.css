@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+body {
+    width: 100%;
+    color: black;
+}
+.contenedor {
+    width: 70%;
+    margin: auto;
+}
+.contenedor .top {
+}
+.contenedor .top .title {
+    text-align: center;
+    font-size:70px;
+}
+.contenedor .top .menu {
+    text-align: center;
+    padding: 1.4%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.contenedor .top .menu a {
+    padding: 0 1% 0 1%;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+footer {
+    margin-top: 1.5%;
+    padding: 1.4%;
+    border-top: 1px solid black;    
+    text-align: center;
+}
+footer p {
+    font-size: 12px;
+}
+
+.item_search {
+    float: right;
+    padding: 1.5% 0 .5% 0;
+}
+.item_search input {
+    padding: 1.5% 0;
+    float: left;
+    border: 1px solid black;
+}
+.item_search input[type="search"] {
+    width:200px;
+    padding-left: 3%;
+    margin: 0;
+    border-right:none;
+}
+.item_search input[type="button"] {
+    cursor: pointer;
+}
+.item_table {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+.item_table td, .item_table th {
+    border: 1px solid black;
+    padding: .5%;
+}
+.spam .p_spam {
+    font-size: 12px;
+    text-align: center;
+    padding: .5%;
+}
+.navigation {
+    padding: 1% 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination a  {
+    border: 1px solid black;
+    padding: 0 1%;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.pagination li a {
+    text-decoration: none;
+}
+.pagination .active {
+    background: black;
+    color: white;
+}
